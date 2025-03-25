@@ -1,0 +1,231 @@
+/* Content */
+.content {
+  overflow-y: auto;
+  margin-top: 60px;
+}
+.headline {
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  animation: typing 4s ease-in forwards;
+  text-align: center;
+}
+@keyframes typing {
+  from {
+    opacity: 0;
+    color: blue;
+  }
+  to {
+    opacity: 1;
+    color: red;
+  }
+}
+
+/* Grid Layout for Places */
+.places {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  column-gap: 40px;
+  row-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.touristPlace {
+  cursor: pointer;
+  border-radius: 5px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 10px 5px rgba(58, 54, 54, 0.1);
+}
+.images {
+  margin-top: 10px;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.info {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.bookmark {
+  margin: 2px 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between heart and comment */
+}
+
+.bookmark span:last-child {
+  margin-left: auto; /* Moves bookmark icon to the right */
+}
+
+/* Pagination */
+.pagination {
+  margin: 20px auto;
+  border: 2px solid black;
+  width: fit-content;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.pagination span {
+  margin: 10px 5px;
+  padding: 10px 5px;
+  text-align: center;
+}
+.activePage {
+  color: red;
+}
+/* Home Section */
+.home {
+  margin-top: 60px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.homeImage {
+  background-image: url("../../public/images/home.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 90vh;
+  padding: 10px;
+  max-height: 80vh;
+  width: 95%;
+  left: 20;
+  border-radius: 10px;
+}
+.homeImage h1 {
+  position: absolute;
+  left: 0;
+  margin-top: 22%;
+  color: rgb(7, 7, 7);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: cursive;
+  animation: coloring 3s ease-in-out infinite;
+}
+@keyframes coloring {
+  0% {
+    transform: translateY(0);
+    color: green;
+    text-shadow: 0 0 10px red;
+  }
+  50% {
+    transform: translateY(10px);
+    color: palevioletred;
+    text-shadow: 0 0 20px yellow;
+  }
+  100% {
+    transform: translateY(0px);
+    color: blueviolet;
+    text-shadow: 0 0 10px red;
+  }
+}
+
+.searchPlace {
+  text-align: center;
+  margin: 30px;
+}
+.searchPlace input {
+  margin: 10px 0px;
+  height: 30px;
+  width: 300px;
+}
+.searchPlace button {
+  background-color: green;
+  color: white;
+  outline: none;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.savedList h3 {
+  margin: 10px 0px;
+  color: red;
+  text-align: center;
+}
+.savedList {
+  text-align: center;
+}
+
+/* ======= Media Queries for Mobile Screens ======= */
+
+/* For Tablets & Small Screens */
+@media screen and (max-width: 1024px) {
+  .places {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+  }
+  .images {
+    height: 300px;
+    width: 280px;
+  }
+  .headline {
+    font-size: 20px;
+  }
+  .home {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .homeImage {
+    min-height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+/* For Mobile Devices */
+@media screen and (max-width: 768px) {
+  .nav {
+    gap: 10px;
+  }
+  .places {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  .images {
+    height: 250px;
+    width: 90%;
+  }
+  .headline {
+    font-size: 18px;
+  }
+  .homeImage {
+    height: 60vh;
+    max-height: 60vh;
+    width: 100%;
+  }
+  .homeImage h1 {
+    font-size: 22px;
+  }
+}
+
+/* For Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .places {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .images {
+    height: 200px;
+    width: 100%;
+  }
+  .headline {
+    font-size: 16px;
+  }
+  .homeImage h1 {
+    font-size: 18px;
+  }
+}
+.data {
+  text-align: center;
+  margin-top: 20px;
+}

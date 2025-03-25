@@ -1,0 +1,75 @@
+.page {
+  background-image: url("../public/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  padding: 10px;
+  cursor: pointer;
+}
+.header {
+  color: white;
+  font-weight: bolder;
+}
+.header div {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20;
+  left: 90;
+  font-size: 20px;
+}
+.category {
+  border: 2px solid rgb(99, 21, 21);
+  margin: 100px;
+}
+.category input {
+  border: none;
+  outline: none;
+}
+.header img {
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  filter: invert(1);
+}
+.nav,
+.nav ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  color: white;
+  margin-left: 200px;
+}
+
+.para {
+  width: 500px;
+  color: #1a1111;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  text-shadow: 2px 2px 2px rgb(167, 81, 78);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.explore {
+  background-color: rgb(32, 130, 155);
+  color: rgb(41, 33, 33);
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+  font-weight: bold;
+}
+.dp {
+  border-radius: 50%;
+  border: 2px solid black;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+}

@@ -1,0 +1,368 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Tawang Monastery",
+      "State": "Arunachal Pradesh",
+      "Category": "Religious/Monastery",
+      "Location": "Tawang",
+      "images": [
+        "https://www.exoticmiles.com/wp-content/uploads/2020/05/Tawang-Monastery.jpg",
+        "https://s7ap1.scene7.com/is/image/incredibleindia/tawang-monastery-tawang-arunachal-pradesh-2-attr-hero?qlt=82&ts=1726743068766",
+        "https://travelogyindia.b-cdn.net/storage/app/upload/tawang-monastery-arunachal-pradesh.jpg"
+      ],
+      "Description": "The largest monastery in India, offering stunning views of the Himalayas and a spiritual retreat."
+    },
+    {
+      "id": 2,
+      "name": "Kaziranga National Park",
+      "State": "Assam",
+      "Category": "Wildlife/National Park",
+      "Location": "Golaghat & Nagaon",
+      "images": [
+        "https://liamtra.com/blog/wp-content/uploads/2023/02/Flora-and-Fauna-found-in-Kaziranga-National-Park-1.jpg",
+        "https://www.kaziranganationalpark-india.com/blog/wp-content/uploads/2021/12/kaziranga-elephants.jpg",
+        "https://kazirangatourism.in/image/wildlifesafari.jpg"
+      ],
+      "Description": "A UNESCO World Heritage Site, home to the Indian one-horned rhinoceros and diverse wildlife."
+    },
+    {
+      "id": 3,
+      "name": "Jagannath Temple",
+      "State": "Odisha",
+      "Category": "Religious/Temple",
+      "Location": "Puri",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/incredibleindia/sri-jagannath-temple-puri-odisha-2-attr-hero?qlt=82&ts=1726663717081",
+        "https://s7ap1.scene7.com/is/image/incredibleindia/sri-jagannath-temple-puri-odisha-1-attr-hero?qlt=82&ts=1726663747217",
+        "https://images.firstpost.com/uploads/2024/01/odisha1.jpg?im=FitAndFill=(1200,675)"
+      ],
+      "Description": "One of the Char Dham pilgrimage sites, famous for the annual Rath Yatra festival."
+    },
+    {
+      "id": 4,
+      "name": "Sundarbans",
+      "State": "West Bengal",
+      "Category": "Wildlife/National Park",
+      "Location": "Sundarbans Delta",
+      "images": [
+        "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/01/16170702/tiger.jpg?tr=w-1200,q-60",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDs-yXqxsvgZJcpT9XGEsv6OeXb2ALPlcnsg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpn6wkB_Ar97GVuqPSHJilRTcpoZv_qhcqg&s"
+      ],
+      "Description": "The world's largest mangrove forest, home to the Royal Bengal Tiger."
+    },
+    {
+      "id": 5,
+      "name": "Taj Mahal",
+      "State": "Uttar Pradesh",
+      "Category": "Heritage/Monument",
+      "Location": "Agra",
+      "images": [
+        "https://images.pexels.com/photos/5608221/pexels-photo-5608221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+        "https://c4.wallpaperflare.com/wallpaper/839/1000/912/world-1920x1080-taj-mahal-taj-wallpaper-preview.jpg"
+      ],
+      "Description": "A UNESCO World Heritage Site and one of the Seven Wonders of the World, known for its stunning white marble architecture."
+    },
+    {
+      "id": 6,
+      "name": "Jaipur City Palace",
+      "State": "Rajasthan",
+      "Category": "Heritage/Palace",
+      "Location": "Jaipur",
+      "images": [
+        "https://www.rajasthandirect.com/wp-content/uploads/2012/11/city-palace-jaipur-1.jpg",
+        "https://images.memphistours.com/large/9a3063ce2cf1eb7675ef5298c7d594e6.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJqrPRgVekIj0Jevblvtx7GXTkBlOo02xoNw&s"
+      ],
+      "Description": "A beautiful blend of Mughal and Rajput architecture, housing museums and royal artifacts."
+    },
+    {
+      "id": 7,
+      "name": "Rann of Kutch",
+      "State": "Gujarat",
+      "Category": "Desert/Natural Beauty",
+      "Location": "Kutch",
+      "images": [
+        "https://www.rannutsav.com/assets/front/img/white-rann.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsBmR40BKTxKvbH0P3molBbqW0WF5MofmvOQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWUXZVkVj4OPW17_zoCN0XAmFUDb69cQwonw&s"
+      ],
+      "Description": "A vast white salt desert, famous for the Rann Utsav festival."
+    },
+    {
+      "id": 8,
+      "name": "Munnar Tea Gardens",
+      "State": "Kerala",
+      "Category": "Hill Station/Nature",
+      "Location": "Munnar",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF-5MrAJHCzoK8xYuXOdXVposXqz8XkaUjzg&s",
+        "https://www.keralatoursoperatorindia.com/images/tea/kerala-tea-slider-1.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdbRs7Np5c_0YOqT-X3J77q2ls8eZXcW50Q&s"
+      ],
+      "Description": "A picturesque hill station known for its lush tea plantations, rolling hills, and misty valleys, offering a peaceful retreat."
+    },
+    {
+      "id": 9,
+      "name": "Mysore Palace",
+      "State": "Karnataka",
+      "Category": "Heritage/Palace",
+      "Location": "Mysore",
+      "images": [
+        "https://static.toiimg.com/photo/51010758/.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-fnPI4tfg5u2KWS1SpbJLyJ8gtXCYozGgQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTMeUei7fE4iHD59bz1HfQEptF7Z51bbdfsA&s"
+      ],
+      "Description": "A magnificent Indo-Saracenic palace that lights up beautifully during festivals."
+    },
+    {
+      "id": 10,
+      "name": "Meenakshi Temple",
+      "State": "Tamil Nadu",
+      "Category": "Religious/Temple",
+      "Location": "Madurai",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfa5iLIFWdR-qcMUGfgsYMiXQmy_mqhbHOkw&s",
+        "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/meenakshi-amman-temple-1656170467_cfebe78d69f069f881aa.webp",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/71/bf/0e/madurai-meenakshi-temple.jpg?w=1200&h=-1&s=1"
+      ],
+      "Description": "An iconic temple known for its colorful gopurams and intricate carvings."
+    },
+    {
+      "id": 11,
+      "name": "Charminar",
+      "State": "Telangana",
+      "Category": "Heritage/Monument",
+      "Location": "Hyderabad",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/incredibleindia/charminar-mosque-hyderabad-telangana-3-attr-about?qlt=82&ts=1726652899615",
+        "https://i0.wp.com/weekendyaari.in/wp-content/uploads/2024/09/Charminar-Hyderabad.jpg?fit=1000%2C551&ssl=1",
+        "https://s7ap1.scene7.com/is/image/incredibleindia/charminar-hyderabad-2-attr-hero?qlt=82&ts=1726652869975"
+      ],
+      "Description": "A historic monument and mosque, symbolizing the grandeur of Hyderabad."
+    },
+    {
+      "id": 12,
+      "name": "Sultanpur National Park",
+      "State": "Haryana",
+      "Category": "Wildlife/National Park",
+      "Location": "Gurugram",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/c8/82/44/sultanpur-national-park.jpg?w=800&h=-1&s=1",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpbAj9oXciJyUrlo615tULtRBhmTPFG4I8Kg&s",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/92/68/cb/sultanpur-national-park.jpg?w=1200&h=1200&s=1"
+      ],
+      "Description": "A famous bird sanctuary home to migratory birds from Europe, Siberia, and Central Asia, making it a paradise for birdwatchers."
+    },
+    {
+      "id": 13,
+      "name": "Baidyanath Jyotirlinga Temple",
+      "State": "Jharkhand",
+      "Category": "Religious/Temple",
+      "Location": "Deoghar",
+      "images": [
+        "https://ritsin.com/wp-content/uploads/2013/07/baidyanath-temple-mandir-jyotirlinga-1.jpg",
+        "https://i0.wp.com/acharyaganesh.com/wp-content/uploads/2024/11/blog-Vaidyanath-Jyotirlinga.jpg?fit=1280%2C720&ssl=1",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-AYiAW8QCFV5EQWK_J1aoRQRhzO2_zU1eA&s"
+      ],
+      "Description": "Baidyanath Jyotirlinga Temple, located in Deoghar, is one of the twelve sacred Jyotirlingas in India, dedicated to Lord Shiva. This temple is a major pilgrimage site, attracting millions of devotees, especially during the Shravani Mela. The temple complex includes several shrines, and it holds immense mythological and spiritual significance."
+    },
+    {
+      "id": 14,
+      "name": "Khajuraho Temples",
+      "State": "Madhya Pradesh",
+      "Category": "Heritage/Temple",
+      "Location": "Khajuraho",
+      "images": [
+        "https://media.istockphoto.com/id/508628776/photo/sunset-over-kandariya-mahadeva-temple.jpg?s=612x612&w=0&k=20&c=YOpVZmLiY4ccl_aoWRJhfqLpNEDgjyOGuTAKbobCO-U=",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs8hL9pJlafQSMt7Ny52vw2D-Lvsv1xFLBuA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs8hL9pJlafQSMt7Ny52vw2D-Lvsv1xFLBuA&s"
+      ],
+      "Description": "A UNESCO World Heritage Site, known for its intricate erotic sculptures and Nagara-style architecture."
+    },
+    {
+      "id": 15,
+      "name": "Vantawng Falls",
+      "State": "Mizoram",
+      "Category": "Waterfall/Nature",
+      "Location": "Serchhip",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBnIU8OZ2Eji_TLQn1S3l9YqHAANGBU2lwcg&s",
+        "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/01/18/ebdae070e14630983ee582f92c54e2c7_1000x1000.jpg",
+        "https://i.pinimg.com/736x/c6/12/97/c6129704ca968d93a2771e629b71c4a7.jpg"
+      ],
+      "Description": "The highest waterfall in Mizoram, surrounded by lush green forests and a breathtaking natural landscape."
+    },
+    {
+      "id": 16,
+      "name": "Ajanta and Ellora Caves",
+      "State": "Maharashtra",
+      "Category": "Heritage/Caves",
+      "Location": "Aurangabad",
+      "images": [
+        "https://aurangabadtourism.in/images/places-to-visit/header/ellora-caves-aurangabad-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDTPSh6ip3MPXabAX7EJK-UL3dX8ci7Vo8w&s",
+        "https://media.licdn.com/dms/image/D5612AQGu3ARo0kcO8g/article-cover_image-shrink_720_1280/0/1719485183350?e=2147483647&v=beta&t=Qvo7hiS5ADOQQJkZnNhrincNuEO5398BMzCUqNV6_6w"
+      ],
+      "Description": "Rock-cut caves featuring ancient Buddhist, Hindu, and Jain sculptures."
+    },
+    {
+      "id": 17,
+      "name": "Golden Temple",
+      "State": "Punjab",
+      "Category": "Religious/Temple",
+      "Location": "Amritsar",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLVmu06I2NneSo0bvL4b-sP-0dVduSG6fGQ&s",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/56/fd/28.jpg",
+        "https://media.istockphoto.com/id/543179390/photo/golden-temple-the-main-sanctuary-of-sikhs-amritsar-india.jpg?s=612x612&w=0&k=20&c=s4bOWzg0e0ecBBPmuzIEShhrmMWFE16cnYlAZ7Nfdeg="
+      ],
+      "Description": "The holiest Sikh shrine, known for its golden structure and Langar service."
+    },
+    {
+      "id": 18,
+      "name": "Dal Lake",
+      "State": "Jammu & Kashmir",
+      "Category": "Lake/Nature",
+      "Location": "Srinagar",
+      "images": [
+        "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190312112932/Shikara-boats-on-Dal-lake-Srinagar.jpg",
+        "https://img.indiahighlight.com/fit-in/1090x600/ih/uploads/1725346274.jpg",
+        "https://www.flamingotravels.co.in/_next/image?url=https%3A%2F%2Fimgcdn.flamingotravels.co.in%2FImages%2FPlacesOfInterest%2Fdal%20lake.png&w=640&q=90"
+      ],
+      "Description": "Famous for houseboats, shikaras, and scenic Himalayan views."
+    },
+    {
+      "id": 19,
+      "name": "Mahabodhi Temple",
+      "State": "Bihar",
+      "Category": "Religious/Temple",
+      "Location": "Bodh Gaya",
+      "images": [
+        "https://www.akkaias.com/uploads/images/outlooktraveller.jpg",
+        "https://vajiram-prod.s3.ap-south-1.amazonaws.com/Mahabodhi_Temple_Complex_511d2e9a47.webp",
+        "https://thegr8wall.wordpress.com/wp-content/uploads/2016/01/dscn0103.jpg?w=584"
+      ],
+      "Description": "A UNESCO World Heritage Site, marking the place where Buddha attained enlightenment."
+    },
+    {
+      "id": 20,
+      "name": "Rohtang Pass",
+      "State": "Himachal Pradesh",
+      "Category": "Mountain Pass/Nature",
+      "Location": "Near Manali",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZNQ4Vekdo4P57vnCqnVCWRY5ZnPyRd7IkA&s",
+        "https://s7ap1.scene7.com/is/image/incredibleindia/rohtang-pass-manali-himachal-pradesh-1-attr-hero?qlt=82&ts=1726730701545",
+        "https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/Rohtang-pass-in-summer_16th-jan.jpg"
+      ],
+      "Description": "A high mountain pass offering breathtaking views of the Himalayas, popular for snow activities and adventure sports."
+    },
+    {
+      "id": 21,
+      "name": "Loktak Lake",
+      "State": "Manipur",
+      "Category": "Lake/Nature",
+      "Location": "Bishnupur",
+      "images": [
+        "https://www.savaari.com/blog/wp-content/uploads/2022/12/loktak-lake-in-india.jpg",
+        "https://res.cloudinary.com/purnesh/image/upload/f_auto/v1632891688/a1632891686987.jpg",
+        "https://en-media.thebetterindia.com/uploads/2016/02/loktak_f.jpg"
+      ],
+      "Description": "The largest freshwater lake in Northeast India, famous for its floating phumdis."
+    },
+    {
+      "id": 22,
+      "name": "Living Root Bridges",
+      "State": "Meghalaya",
+      "Category": "Eco-Tourism/Nature",
+      "Location": "Cherrapunji & Mawlynnong",
+      "images": [
+        "https://i.natgeofe.com/n/6f1836a2-2337-48a1-b131-e42831c93cf1/double-decker-living-root-bridge-meghalaya-india_16x9.jpg",
+        "https://thelogicalindian.com/wp-content/uploads/2024/10/500x300_235015-copy-of-web-image-34.webp",
+        "https://travenjo.com/wp-content/uploads/2019/04/Living-Root-Brdige-Mawlynnong.jpg?x98861"
+      ],
+      "Description": "Handcrafted by generations of the Khasi tribe, these unique bridges are made from living tree roots, blending nature and engineering. The Double-Decker Living Root Bridge in Nongriat is the most famous."
+    },
+    {
+      "id": 23,
+      "name": "Tsomgo Lake",
+      "State": "Sikkim",
+      "Category": "Lake/Nature",
+      "Location": "East Sikkim",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9scoyiFY80EsqLPofgeWvG_4Mb8be4hL73Q&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiz3Y0WOaIKHsTDtJQ1jtXMUhzG3LAx3ukEw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHmdZ9_dyiFJOR7kU7P33P25GeBriLolIdg&s"
+      ],
+      "Description": "A glacial lake at an altitude of 12,310 ft, known for its breathtaking views and changing colors throughout the seasons."
+    },
+    {
+      "id": 24,
+      "name": "Dzukou Valley",
+      "State": "Nagaland",
+      "Category": "Hill Station/Nature",
+      "Location": "Kohima",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYsfV_oqG-aHrLrxmuX6j2hogAJukMz2qmUNIEitJKTU17-FgdwhT3Mx83L6YZp8t_3tc&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaMVMNBZb-0jZqFnDpkSE1c-Dcqu-I_8ZZPg&s",
+        "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2023/11/dzukou-8.jpeg?size=*:900"
+      ],
+      "Description": "Famous for its seasonal flowers and breathtaking landscapes."
+    },
+    {
+      "id": 25,
+      "name": "Unakoti",
+      "State": "Tripura",
+      "Category": "Heritage/Temple",
+      "Location": "Kailashahar",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKHpiWq8MZkARPwKXHC0cjkI7OZGh5s1oP7Q&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTriK4BOstHei2e1u1jsknzfps8jFoKH_RADg&s",
+        "https://thegypsychiring.com/wp-content/uploads/2023/08/Unakoti-Archaeological-Site-in-Tripura.webp"
+      ],
+      "Description": "A unique rock-cut site with thousands of Shaivite sculptures."
+    },
+    {
+      "id": 26,
+      "name": "Kedarnath Temple",
+      "State": "Uttarakhand",
+      "Category": "Religious/Temple",
+      "Location": "Kedarnath",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kedarnath_Temple_in_Rainy_season.jpg/640px-Kedarnath_Temple_in_Rainy_season.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUD-BQsltt2eG7gYfiWa1O8yhCD4rPR195RA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYdZO_CjyKXHMkeS1gQ189z7J5wVBS-IvsA&s"
+      ],
+      "Description": "One of the holiest Hindu temples dedicated to Lord Shiva, nestled in the Himalayas and part of the Char Dham pilgrimage."
+    },
+    {
+      "id": 27,
+      "name": "Rock Garden",
+      "State": "Chhattisgarh",
+      "Category": "Nature/Park",
+      "Location": "Raipur",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKAfNa42_HhAch5a1xnoR5Zb7Vb-h2MYlyXyR8MqJHkRxl7TAoE48ny-aTgkuq-o1IBdg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpbmDpb_ost8CwD4tqQrrFY4GJM_K11tW5f2N1LZvfq2U1m4CKBAb6zX6uIhr1c7V6Ok&usqp=CAU",
+        "https://paramountclientweb.s3.ap-south-1.amazonaws.com/indian-holiday-trip/Place/2023/Mar/Img_3942_202313231035_rock_garden.jpg"
+      ],
+      "Description": "A beautifully designed garden with artificial waterfalls and sculptures, offering a relaxing environment."
+    },
+    {
+      "id": 28,
+      "name": "Baga Beach",
+      "State": "Goa",
+      "Category": "Beach",
+      "Location": "North Goa",
+      "images": [
+        "https://img.freepik.com/premium-photo/umbrella-chair-beach-with-palm-tree-sea-beach_1339-125629.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714176000&semt=ais",
+        "https://gogoacarrentals.com/wp-content/uploads/2019/03/Candolim-Beach.jpg",
+        "https://assets.cntraveller.in/photos/60ba253f0f3a5367ec9fe958/16:9/w_1360,h_765,c_limit/GoaWhat-I-learnt-Ranjan-Pal-1366x768.jpg"
+      ],
+      "Description": "Baga Beach is one of the most popular beaches in Goa, known for its vibrant nightlife, water sports, beach shacks, and stunning sunset views. It attracts tourists from all over the world for its lively atmosphere and adventure activities like parasailing, jet skiing, and banana boat rides."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  min-height: 80vh;
+}
+.about p {
+  max-width: 800px;
+  text-align: center;
+  margin-top: 10px;
+}
+.about h3 {
+  margin-top: 10px;
+}
+
+.about div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
