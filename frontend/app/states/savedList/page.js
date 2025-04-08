@@ -2,7 +2,7 @@
 import Places from "@/components/Places";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import destinations from "../../../lib/data.json";
+import destinations from "../../../lib/data.js";
 import styles from "../page.module.css";
 import axios from "axios";
 

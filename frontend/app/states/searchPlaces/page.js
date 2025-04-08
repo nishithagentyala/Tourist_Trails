@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import destinations from "../../../lib/data.json";
+import destinations from "../../../lib/data.js";
 import Places from "@/components/Places";
 import styles from "../page.module.css";
 
