@@ -24,7 +24,7 @@ export default function Register() {
     setError(null);
     try {
       const response = await axios.post(
-        "http://localhost:8000/users/register",
+        "https://tourist-trails.onrender.com/users/register",
         {
           username,
           email,

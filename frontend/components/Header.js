@@ -36,9 +36,12 @@ export default function Header() {
   const logout = async () => {
     setShowProfile(false);
     try {
-      const response = await axios.post("http://localhost:8000/users/logout", {
-        credentails: "include",
-      });
+      const response = await axios.post(
+        "https://tourist-trails.onrender.com/users/logout",
+        {
+          credentails: "include",
+        }
+      );
       if (response.status === 200) {
         route.push("/");
       }

@@ -22,12 +22,15 @@ export default function Login() {
     e.preventDefault();
     setError(null);
     try {
-      const response = await axios.post("http://localhost:8000/users/login", {
-        headers: { "Content-Type": "application/json" },
-        email,
-        password,
-        credentails: "include",
-      });
+      const response = await axios.post(
+        "https://tourist-trails.onrender.com/users/login",
+        {
+          headers: { "Content-Type": "application/json" },
+          email,
+          password,
+          credentails: "include",
+        }
+      );
 
       dispatch(login(response.data));
       router.push(`/states/home`);

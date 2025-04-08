@@ -14,7 +14,7 @@ export default function SavedList() {
     const fetchSavedList = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/users/savedList/${user._id}`
+          `https://tourist-trails.onrender.com/users/savedList/${user._id}`
         );
 
         setSavedList(response.data.savedList);

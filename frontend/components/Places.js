@@ -35,7 +35,7 @@ export default function Places({ currentPlaces }) {
   const fetchSavedList = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:8000/users/savedList/${user._id}`
+        `https://tourist-trails.onrender.com/users/savedList/${user._id}`
       );
       setSavedList(response.data.savedList);
     } catch (err) {
@@ -45,7 +45,7 @@ export default function Places({ currentPlaces }) {
   const fetchFavourites = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:8000/users/favourites/${user._id}`
+        `https://tourist-trails.onrender.com/users/favourites/${user._id}`
       );
 
       setFavourites(response.data.favourites);
@@ -62,9 +62,12 @@ export default function Places({ currentPlaces }) {
 
   const savePlaces = async (placeId) => {
     try {
-      await axios.put(`http://localhost:8000/users/savedList/${user._id}`, {
-        savedList: placeId,
-      });
+      await axios.put(
+        `https://tourist-trails.onrender.com/users/savedList/${user._id}`,
+        {
+          savedList: placeId,
+        }
+      );
       await fetchSavedList();
     } catch (err) {
       console.log("error", err);
@@ -74,9 +77,12 @@ export default function Places({ currentPlaces }) {
   const toggleLikes = async (placeId) => {
     if (!user?._id) return;
     try {
-      await axios.put(`http://localhost:8000/users/favourites/${user._id}`, {
-        favourites: placeId,
-      });
+      await axios.put(
+        `https://tourist-trails.onrender.com/users/favourites/${user._id}`,
+        {
+          favourites: placeId,
+        }
+      );
       await fetchFavourites();
     } catch (err) {
       console.log("error", err);

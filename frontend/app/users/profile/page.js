@@ -41,7 +41,7 @@ export default function Profile() {
     const updatedUser = { username, currentPass, newPass };
     try {
       const response = await axios.put(
-        `http://localhost:8000/users/profile/${user._id}`,
+        `https://tourist-trails.onrender.com/users/profile/${user._id}`,
         updatedUser
       );
       response.data ? route.push("/states/home") : route.push("/");
