@@ -1,6 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
-import { destinations } from "../../../../lib/data.json";
+import destinations from "../../../../lib/data.json";
 import { motion } from "framer-motion";
 import styles from "../../page.module.css";
 

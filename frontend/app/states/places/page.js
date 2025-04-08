@@ -1,6 +1,6 @@
 "use client";
 import styles from "../page.module.css";
-import { destinations } from "../../../lib/data.json";
+import destinations from "../../../lib/data.json";
 import { useSelector } from "react-redux";
 import Places from "@/components/Places";
 

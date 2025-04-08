@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaLock } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import styles from "../form.module.css";
 import axios from "axios";
@@ -21,6 +21,12 @@ export default function Profile() {
   const [showConfirmPass, setShowConfirmPass] = useState(false);
 
   const route = useRouter();
+
+  useEffect(() => {
+    if (!user) {
+      route.push("/");
+    }
+  }, [user, route]);
   const togglePassword = (field) => {
     if (field === "current") setShowCurrentPass(!showCurrentPass);
     if (field === "new") setShowNewPass(!showNewPass);
@@ -51,7 +57,7 @@ export default function Profile() {
         <input
           type="username"
           id="username"
-          placeholder={user.username}
+          placeholder={user?.username}
           required
           value={username}
           onChange={(e) => setUsername(e.target.value)}
