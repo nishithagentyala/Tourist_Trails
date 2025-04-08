@@ -4,7 +4,7 @@
   margin-top: 60px;
 }
 .headline {
-  margin: 10px 0px;
+  margin: 15px 0px;
   font-size: 24px;
   font-weight: bold;
   animation: typing 4s ease-in forwards;
@@ -79,53 +79,6 @@
 }
 .activePage {
   color: red;
-}
-/* Home Section */
-.home {
-  margin-top: 60px;
-  overflow-y: auto;
-  text-align: center;
-}
-
-.homeImage {
-  background-image: url("../../public/images/home.png");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  height: 90vh;
-  padding: 10px;
-  max-height: 80vh;
-  width: 95%;
-  left: 20;
-  border-radius: 10px;
-}
-.homeImage h1 {
-  position: absolute;
-  left: 0;
-  margin-top: 22%;
-  color: rgb(7, 7, 7);
-  padding: 20px;
-  border-radius: 10px;
-  font-weight: bolder;
-  font-family: cursive;
-  animation: coloring 3s ease-in-out infinite;
-}
-@keyframes coloring {
-  0% {
-    transform: translateY(0);
-    color: green;
-    text-shadow: 0 0 10px red;
-  }
-  50% {
-    transform: translateY(10px);
-    color: palevioletred;
-    text-shadow: 0 0 20px yellow;
-  }
-  100% {
-    transform: translateY(0px);
-    color: blueviolet;
-    text-shadow: 0 0 10px red;
-  }
 }
 
 .searchPlace {

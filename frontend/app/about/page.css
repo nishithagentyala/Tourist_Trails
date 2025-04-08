@@ -24,3 +24,43 @@
   flex-wrap: wrap;
   padding: 10px;
 }
+/* Tablet Screens (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+  .about {
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .about p {
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  .about div {
+    gap: 12px;
+    padding: 8px;
+  }
+}
+
+/* Mobile Screens (≤ 768px) */
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .about h3 {
+    font-size: 20px;
+  }
+
+  .about p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .about div {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

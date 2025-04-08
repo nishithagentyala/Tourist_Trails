@@ -37,7 +37,6 @@ export default function Login() {
         err.response ? err.response.data.message : err.message
       );
       setError(err.response ? err.response.data.message : err.message);
-      //throw new Error(err.response ? err.response.data.message : err.message);
     }
   };
 

@@ -33,7 +33,6 @@ export default function SavedList() {
       destinations.filter((place) => savedList.includes(place.id.toString()))
     );
   }, [savedList, destinations]);
-  console.log(filteredPlaces);
 
   return (
     <div className={styles.savedList}>
