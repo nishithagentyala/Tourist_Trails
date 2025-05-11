@@ -18,6 +18,7 @@ export default function viewPlaces() {
             alt={`Image ${index + 1}`}
             initial={{ opacity: 0, scale: 0.8 }}
             width="450px"
+            height="450px"
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.3 }}
           />

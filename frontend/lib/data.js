@@ -473,7 +473,7 @@ const destinations = [
     Location: "North Goa",
     images: [
       "https://img.freepik.com/premium-photo/umbrella-chair-beach-with-palm-tree-sea-beach_1339-125629.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714176000&semt=ais",
-      "https://gogoacarrentals.com/wp-content/uploads/2019/03/Candolim-Beach.jpg",
+      "https://s3.india.com/wp-content/uploads/2024/06/List-of-8-Famous-Beaches-Around-Goa.jpg?impolicy=Medium_Widthonly&w=350&h=263",
       "https://assets.cntraveller.in/photos/60ba253f0f3a5367ec9fe958/16:9/w_1360,h_765,c_limit/GoaWhat-I-learnt-Ranjan-Pal-1366x768.jpg",
     ],
     BestTimetoVisit: "November to February",
@@ -481,6 +481,23 @@ const destinations = [
       "Baga Beach is one of Goa’s most popular beaches, known for its lively nightlife, water sports, and beachside shacks. Tourists flock here for parasailing, jet-skiing, dolphin spotting, and party vibes. It’s also a great spot to relax with stunning sunsets and fresh seafood. The nearby Tito’s Lane adds to the beach’s energetic ambiance.",
     Description:
       "Baga Beach is one of the most popular beaches in Goa, known for its vibrant nightlife, water sports, beach shacks, and stunning sunset views. It attracts tourists from all over the world for its lively atmosphere and adventure activities like parasailing, jet skiing, and banana boat rides.",
+  },
+  {
+    id: 29,
+    name: "Tirupati",
+    State: "Andhra Pradesh",
+    Category: "Pilgrimage",
+    Location: "Chittoor District, Andhra Pradesh",
+    images: [
+      "https://images.hindustantimes.com/img/2021/04/01/550x309/_89be5c8c-cb67-11ea-81b2-abeeb3468286_1617276845374.jpg",
+      "https://mommyreturns.art.blog/wp-content/uploads/2020/02/4.jpg?w=384",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBuEBthHkDu0-2ncQATK7leYd9l4XYZL71gQ&s",
+    ],
+    BestTimetoVisit: "September to March",
+    Detail:
+      "Located in the foothills of the Eastern Ghats, Tirupati is renowned for the sacred Tirumala Venkateswara Temple dedicated to Lord Venkateswara, an incarnation of Vishnu. Pilgrims flock here to seek blessings, take part in rituals, and donate generously. The city also features other attractions like Akasaganga Teertham, Sri Venkateswara Zoological Park, and Chandragiri Fort. With a mix of devotion, heritage, and nature, Tirupati stands as a major spiritual destination in India.",
+    Description:
+      "Tirupati is home to the Tirumala Venkateswara Temple, one of the most visited and richest religious sites in the world. It attracts millions of devotees every year.",
   },
 ];
 export default destinations;
